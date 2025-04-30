@@ -1,8 +1,10 @@
 package com.pdmtaller2.PaolaLopez_00167523.data
 
+import androidx.annotation.DrawableRes
+
 data class Dish(
     val id: Int,
     val name: String,
     val description: String,
-    val imageURL: String,
+    val imageResId: Int,
 )
